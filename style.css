@@ -1,0 +1,501 @@
+.topnavRR {
+    position: relative;
+    bottom: 2px;
+    float: right;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+}
+.topnavRR a {
+    font-family: 'Krona One', sans-serif;
+    font-size: 13px;
+    color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #3b7266;
+    box-shadow: 0px 0px 5px 0px black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.topnavRR a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.sidebar {
+    border-radius: 10px;
+    height: 43.2%;
+    width: 90px;
+    position: fixed;
+    z-index: 0;
+    top: 305px;
+    left: 30px;
+    background-color: #151515;
+    box-shadow: 0px 0px 5px 1px #000;
+    overflow-x: hidden;
+    padding-top: 16px;
+    transition: 0.3s;
+  }
+  .sidebar:hover {
+    box-shadow: 0px 0px 5px 3px black;
+  }
+  
+  .sidebar a {
+    margin-left: 10px;
+    font-family: 'Fredoka', sans-serif;
+    position: relative;
+    top: 32px;
+    left: 5px;
+    padding: 6px 8px 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+.infoBoxes {
+    padding-left: 100px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    width: 90%;
+    margin-inline: auto;
+}
+.box {
+    border: solid 2px #151515;
+    margin-inline: auto;
+    background-color: #151515;
+    box-shadow: 0px 0px 5px 0px #000;
+    width: 25%;
+    height: 110px;
+    margin-right: 40px;
+    margin-left: 35px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.box:hover {
+    border: solid 2px #3b7266;
+    box-shadow: 0px 0px 5px 0px black;
+    transform: scale(1.1);
+}
+.infoT {
+    position: relative;
+    left: 40px;
+    font-family: 'Fredoka', sans-serif;
+    color: #f9fafb;
+}
+.infoI {
+    font-size: 50px;
+    position: relative;
+    float: right;
+    right: 40px;
+    top: -80px;
+    color: #3b7266;
+}
+.infoST {
+        font-family: 'Krona One', sans-serif;
+        font-size: 10px;
+    position: relative;
+    left: 40px;
+    top: -15px;
+    color: #c6ccd5;
+}
+#tab1 {
+    width: 100%;
+    height: 100%;
+}
+#tab2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#tab3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#tab4 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#tab5 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#tab6 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    border-radius: 10px;
+    background-color: #151515;
+    box-shadow: 0px 0px 5px 0px #000;
+    display: block;
+    left: 180px;
+    width: 55%;
+    top: 80px;
+    height: 420px;
+    position: relative;
+    transition: 0.3s;
+  }
+  .wrapper:hover {
+    box-shadow: 0px 0px 5px 3px black;
+  }
+  p{text-align:center;}
+  .label {
+    height: 1em;
+    padding: .3em;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    display: none;
+    color:#333;
+  }
+  .pie {
+      box-shadow: 0px 0px 5px 2px black;
+    margin: 3vmin auto;
+    border-radius: 50%;
+    width: 30vmin;
+    height: 30vmin;
+    overflow: hidden;
+    background: linear-gradient(-21deg, #3b7266 50%, transparent 50%), linear-gradient(to right, #3b7266 50%, rgba(255, 255, 255, .8) 50%);
+  }
+  
+  .html {
+      font-size: 15px;
+    position: relative;
+    top: -135px;
+    right: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 20vmin 0 0 20vmin;
+  }
+  
+  .css {
+    font-family: 'Fredoka', sans-serif;
+      color: white;
+        position: relative;
+        left: 70px;
+        top: -50px;
+  }
+  .chart {
+      position: relative;
+      top: -300px;
+      left: -730px;
+      display: block;
+      float: right;
+  }
+  .banTxt {
+      position: relative;
+      left: 465px;
+      top: 3px;
+      font-family: 'Fredoka', sans-serif;
+      float: left;
+      color: white;
+  }
+
+
+  graph {
+    margin-bottom:1em;
+  }
+  
+  .graph caption {
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  .graph tbody th {
+    text-align:right;
+  }
+  
+  @supports (display:grid) {
+  
+    @media (min-width:32em) {
+  
+  
+      .tablee {
+    background-color: red;
+    font-family: 'Fredoka', sans-serif;
+  }
+      .graph {
+        font-family: 'Fredoka', sans-serif;
+        border-radius: 10px;
+        position: relative;
+        left: 198px;
+        top: -388px;
+        float: right;
+        display:block;
+        width:565px;
+        height: 290px;
+      }
+  
+      .graph caption {
+        display:block;
+      }
+  
+      .graph thead {
+        display:none;
+      }
+  
+      .graph tbody {
+        border-radius: 10px;
+        position:relative;
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(2em, 1fr));
+        column-gap:2.5%;
+        align-items:end;
+        height:100%;
+        margin:3em 0 1em 2.8em;
+        padding:0 1em;
+        box-shadow: 0px 0px 5px 0px #000;
+        background-color: #151515;
+        padding: 50px 50px 80px 50px;
+        transition: 0.3s;
+      }
+      .graph tbody:hover {
+        box-shadow: 0px 0px 5px 3px black;
+      }
+      .graph tbody:before,
+      .graph tbody:after {
+        position:absolute;
+        left:-3.2em;
+        width:2.8em;
+        text-align:right;
+      }
+  
+      .graph tbody:before {
+        content:"100%";
+        top:-0.6em;
+      }
+  
+      .graph tbody:after {
+        content:"0%";
+        bottom:-0.6em;
+      }
+  
+      .graph tr {
+        font-family: 'Fredoka', sans-serif;
+        color: #c6ccd5;
+        position:relative;
+        display:block;
+      }
+  
+      .graph tr:hover {
+        z-index:999;
+      }
+  
+      .graph th,
+      .graph td {
+        font-family: 'Fredoka', sans-serif;
+        color: #f9fafb;
+        display:block;
+        text-align:center;
+      }
+  
+      .graph tbody th {
+        position:absolute;
+        top:-3em;
+        left:0;
+        width:100%;
+        font-weight:normal;
+        text-align:center;
+        white-space:nowrap;
+        text-indent:0;
+        transform:rotate(-45deg);
+      }
+  
+      .graph tbody th:after {
+        content:"";
+      }
+  
+      .graph td {
+        width:100%;
+        height:100%;
+        border: solid 1px #3b7266;
+        background-color: rgb(59, 114, 102, 0.1);
+        border-radius:0.5em 0.5em 0 0;
+        transition:background 0.5s;
+      }
+  
+      .graph tr:hover td {
+        opacity:0.7;
+      }
+  
+      .graph td span {
+        font-family: 'Fredoka', sans-serif;
+        overflow:hidden;
+        position:absolute;
+        left:50%;
+        top:50%;
+        width:0;
+        padding:0.5em 0;
+        margin:-1em 0 0;
+        opacity:0;
+        transition:opacity 0.5s;
+        color:white;
+      }
+  
+      .toggleGraph:checked + table td span,
+      .graph tr:hover td span {
+        width:4em;
+        margin-left:-2em; /* 1/2 the declared width */
+        opacity:1;
+      }
+    } 
+  
+  } 
+  caption {
+    color: #f9fafb;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    position: relative;
+    top: -70px;
+  }
+.announcements {
+  position: relative;
+  height: 300px;
+  top: 120px;
+  left: 180px;
+  border-radius: 10px;
+  background-color: #151515;
+  box-shadow: 0px 0px 5px 0px #000;
+  width: 55.1%;
+  transition: 0.3s;
+}
+.announcements:hover {
+  box-shadow: 0px 0px 5px 3px #000;
+}
+.announcementsT {
+  position: relative;
+  left: 230px;
+  font-family: 'Fredoka', sans-serif;
+  color: #f9fafb;
+  float: left;
+}
+.aBox {
+  float: left;
+  position: relative;
+  top: 00px;
+  left: -83px;
+  width: 70%;
+  height: 300px;
+}
+.aBox2{
+  left: 153px;
+  position: relative;
+  top: -230px;
+  float: left;
+  margin-right: 180px;
+}
+.aImg {
+  position: relative;
+  overflow: hidden;
+  right: 70px;
+  border-radius: 10px;
+  top: 58px;
+}
+.aImg img {
+  float: left;
+  width: 60px;
+  height: 40px;
+}
+.aPerson {
+  position: relative;
+  font-size: 11px;
+  font-family: 'Fredoka', sans-serif;
+  color: #f9fafb;
+}
+.aMessage {
+  font-size: 12px;
+  position: relative;
+  top: -15px;
+  font-family: 'Lato', sans-serif;
+  color: #c6ccd5;
+}
+.user {
+  position: relative;
+  left: -80px;
+  top: -237px;
+  border-radius: 10px;
+  background-color: #151515;
+  box-shadow: 0px 0px 5px 0px #000;
+  width: 523px;
+  height: 300px;
+  float: right;
+  transition: 0.3s;
+}
+.user:hover {
+  box-shadow: 0px 0px 5px 3px #000;
+}
+.userI {
+  position: relative;
+  top: 20px;
+  font-size: 80px;
+  width: 18%;
+  margin-inline: auto;
+  color: #3b7266;
+}
+.userInfo {
+  text-align: center;
+}
+.userUser {
+  position: relative;
+  top: -5px;
+  color: #f9fafb;
+  font-family: 'Fredoka', sans-serif;
+}
+.userThanks {
+  position: relative;
+  top: -22px;
+  color: #c6ccd5;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+.userOwned {
+  position: relative;
+  top: -25px;
+  font-family: 'Fredoka', sans-serif;
+  color: #c6ccd5;
+  list-style: none;
+}
+.userOwned li {
+  margin-bottom: px;
+}
+
+#container {
+  background-color: #151515;
+  width: 30%;
+  height: 0%;
+  margin: 0;
+  padding: 0;
+}
+
+  @media screen and (max-width:1900px) {
+    .chart {
+        left: -650px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+
+}
